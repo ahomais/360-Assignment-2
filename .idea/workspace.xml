@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df35253f-9942-4e28-8ab5-2f06a01f8a81" name="Default Changelist" comment="Finished all changes to Assignment1 program.">
+    <list default="true" id="df35253f-9942-4e28-8ab5-2f06a01f8a81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SimpleList/SimpleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleList/SimpleList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SimpleList/SimpleListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleList/SimpleListTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SimpleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,35 +19,36 @@
     <session id="694476250">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3755" />
+          <entry key="java" value="4226" />
           <entry key="txt" value="140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3755" />
+          <entry key="JAVA" value="4226" />
           <entry key="PLAIN_TEXT" value="140" />
         </counts>
       </usages-collector>
@@ -55,26 +57,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SimpleListTest.java">
+        <entry file="file://$PROJECT_DIR$/src/SimpleList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="59" column="88" selection-start-line="59" selection-start-column="88" selection-end-line="59" selection-end-column="88" />
+            <state relative-caret-position="-1965">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SimpleList.java">
+        <entry file="file://$PROJECT_DIR$/src/SimpleListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#3166#3167#0" expanded="true" />
-                <element signature="e#3196#3197#0" expanded="true" />
-                <element signature="e#3318#3319#0" expanded="true" />
-                <element signature="e#3352#3353#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="364">
+              <caret line="119" column="21" lean-forward="true" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -95,8 +94,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SimpleListTest.java" />
         <option value="$PROJECT_DIR$/src/SimpleList.java" />
+        <option value="$PROJECT_DIR$/src/SimpleListTest.java" />
       </list>
     </option>
   </component>
@@ -106,11 +105,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="535" />
-    <option name="y" value="-15" />
-    <option name="width" value="940" />
-    <option name="height" value="1090" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="912" />
+    <option name="width" value="938" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,7 +133,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -145,7 +143,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582676529326" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582741403485" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -257,50 +255,59 @@
       <workItem from="1581367833528" duration="1804000" />
       <workItem from="1581635452155" duration="199000" />
       <workItem from="1582663454622" duration="8124000" />
-      <workItem from="1582677995669" duration="661000" />
+      <workItem from="1582677995669" duration="3562000" />
+      <workItem from="1582739923461" duration="1477000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished all changes to Assignment1 program.">
+      <created>1582678670318</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582678670318</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.04 at 14h 47m 57s.xml">
+    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.26 at 11h 05m 24s.xml">
       <configuration name="Manual container configuration: SimpleListTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.04 at 14h 48m 17s.xml">
+    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.26 at 11h 05m 31s.xml">
       <configuration name="Manual container configuration: SimpleListTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.04 at 14h 48m 53s.xml">
+    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.26 at 11h 06m 08s.xml">
       <configuration name="Manual container configuration: SimpleListTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.04 at 14h 49m 09s.xml">
+    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.26 at 11h 07m 02s.xml">
       <configuration name="Manual container configuration: SimpleListTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.07 at 18h 19m 18s.xml">
+    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.26 at 11h 07m 36s.xml">
       <configuration name="Manual container configuration: SimpleListTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.10 at 14h 17m 23s.xml">
+    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.26 at 11h 11m 53s.xml">
       <configuration name="Manual container configuration: SimpleListTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.10 at 14h 18m 04s.xml">
+    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.26 at 11h 14m 34s.xml">
       <configuration name="Manual container configuration: SimpleListTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.10 at 14h 18m 51s.xml">
+    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.26 at 11h 15m 12s.xml">
       <configuration name="Manual container configuration: SimpleListTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.10 at 14h 19m 03s.xml">
+    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.26 at 11h 15m 24s.xml">
       <configuration name="Manual container configuration: SimpleListTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.25 at 16h 44m 06s.xml">
+    <history-entry file="Manual_container_configuration__SimpleListTest - 2020.02.26 at 11h 16m 36s.xml">
       <configuration name="Manual container configuration: SimpleListTest" configurationId="ArquillianJUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31097000" />
+    <option name="totallyTimeSpent" value="35475000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
+    <frame x="730" y="0" width="750" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.285014" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28921568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -309,17 +316,17 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33242875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Flutter Performance" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -332,6 +339,39 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28921568" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Flutter Performance" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32885906" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Flutter Outline" order="6" weight="0.32983193" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -351,24 +391,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="59" column="88" selection-start-line="59" selection-start-column="88" selection-end-line="59" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SimpleList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-1965">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3166#3167#0" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3318#3319#0" expanded="true" />
-            <element signature="e#3352#3353#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="119" column="21" lean-forward="true" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
         </state>
       </provider>
     </entry>

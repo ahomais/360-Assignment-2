@@ -20,6 +20,16 @@ public class SimpleListTest {
         assertEquals(0, list1.search(1));
         assertEquals(1, list1.search(2));
         assertNotEquals(2, list1.search(3));
+        list1.add(1);
+        list1.add(1);
+        list1.add(1);
+        list1.add(1);
+        list1.add(1);
+        list1.add(1);
+        list1.add(1);
+        list1.add(1);
+        list1.add(1);
+        assertEquals(15, list1.size());
     }
 
     @org.junit.Test
@@ -30,7 +40,8 @@ public class SimpleListTest {
         list1.add(1);
         list1.add(1);
         list1.remove(1);
-        assertEquals("1 2 0 0 0 0 0 0 0 0", list1.toString());
+        assertEquals("1 2 0 0 0 0 0", list1.toString());
+        assertEquals(7, list1.size());
     }
 
     @org.junit.Test
@@ -62,7 +73,51 @@ public class SimpleListTest {
         list1.add(2);
         list1.add(1);
         list1.remove(1);
-        assertEquals("2 0 0 0 0 0 0 0 0 0", list1.toString());
+        assertEquals("2 0 0 0 0 0 0", list1.toString());
+    }
 
+    @org.junit.Test
+    public void appendTest(){
+        SimpleList list1 = new SimpleList();
+        list1.add(2);
+        list1.add(1);
+        list1.append(8);
+        assertEquals("1 2 8 0 0 0 0 0 0 0", list1.toString());
+        list1.append(1);
+        list1.append(1);
+        list1.append(1);
+        list1.append(1);
+        list1.append(1);
+        list1.append(1);
+        list1.append(1);
+        list1.append(1);
+        assertEquals(15, list1.size());
+    }
+
+    @org.junit.Test
+    public void firstTest(){
+        SimpleList list1 = new SimpleList();
+        list1.add(2);
+        list1.add(1);
+        list1.append(8);
+        assertEquals(1, list1.first());
+    }
+
+    @org.junit.Test
+    public void sizeTest(){
+        SimpleList list1 = new SimpleList();
+        list1.add(2);
+        list1.add(1);
+        list1.append(8);
+        assertEquals(10, list1.size());
+        list1.add(2);
+        list1.add(2);
+        list1.add(2);
+        list1.add(2);
+        list1.add(2);
+        list1.add(2);
+        list1.add(2);
+        list1.add(2);
+        assertEquals(15, list1.size());
     }
 }
